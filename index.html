@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+    <meta name="description" content="Na tej stronie znajdziesz wszystkie informacje na temat programisty frontend - Macieja Korsakowskiego" />
+    <meta name="keywords" content="frontend, developer, programista, IT, HTML, CSS, JS, CODER" />
+    <meta name="viewport" content="width=100%, initial-scale=1">
+
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;700&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js">
+    </script>
+    
+    <script>
+        jQuery(function($)
+        {
+            //zresetuj scrolla
+            $.scrollTo(0);
+
+            $('#link1').click(function() {$.scrollTo($ ('#project'), 2000 ); } );
+            $('#link2').click(function() {$.scrollTo($ ('#education'), 3200 ); } );
+            $('#link3').click(function() {$.scrollTo($ ('#experience'), 3400 ); } );
+            $('#link4').click(function() {$.scrollTo($ ('#Aboutme'), 3800 ); } );
+            $('#link5').click(function() {$.scrollTo($ ('#contact'), 4200 ); } );
+            $('.scrollup').click(function() {$.scrollTo($ ('body'), 4200 ); } );
+        }
+        
+        );
+
+            //pokaż podczas przewijania
+        $(window).scroll(function()
+        {
+            if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+            else $('.scrollup').fadeOut();
+        }
+        );
+    </script>
+</head>
+
+<body>
+
+    <div id="logo">Maciej Korsakowski</div>
+    <div id="container">
+        <a href="#" class="scrollup">⤒</a>
+        <div id="categories">
+            <ol>
+                <li>
+                    <a id="link1" href="#">Projekty</a>
+                </li>
+                <li>
+                    <a id="link2" href="#">Wykształcenie</a>
+                </li>
+                <li>
+                    <a id="link3" href="#">Doświadczenie</a>
+                </li>
+                <li>
+                    <a id="link4" href="#">O mnie</a>
+                </li>
+                <li>
+                    <a id="link5" href="#">Kontakt</a>
+                </li>
+            </ol>
+        </div>
+    
+        <div class="tab">
+           
+            <h1 id="project">Projekty</h1>
+            Tutaj kiedyś pojawią się wszytskie moje projekty ( ¬‿¬)</br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur faucibus sagittis neque, mattis tristique eros volutpat sit amet. Phasellus tempus ipsum mi, non vestibulum massa sodales in. Pellentesque luctus facilisis maximus. Nam felis arcu, ornare vel luctus sed, blandit id purus. Phasellus commodo dui turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut finibus, enim non pellentesque eleifend, arcu justo facilisis nisl, sit amet viverra leo velit non metus. Aliquam sed mauris orci. Pellentesque eu pulvinar nisi, at commodo urna.
+
+Duis elit nunc, finibus eu sapien a, lobortis posuere eros. Maecenas aliquet, velit in commodo tempor, ante neque egestas nulla, id vehicula mauris nisi in erat. Ut in mauris fermentum, tincidunt lorem sed, mollis nisi. Ut sed libero commodo, aliquet nisl in, pulvinar turpis. Sed sit amet posuere risus. Suspendisse potenti. Quisque orci nisl, fringilla ut efficitur sed, tristique eget lacus. Etiam lobortis accumsan pellentesque. Fusce et lobortis lacus, sit amet sagittis sem. Duis pellentesque turpis in magna blandit iaculis. Nulla in rutrum eros. Curabitur condimentum malesuada leo. Morbi at lacus purus.
+
+Morbi tempor diam et lobortis ullamcorper. Nulla luctus tortor vel arcu cursus lobortis. Vivamus at est eu orci tincidunt tempus. Donec finibus et mi vel ornare. Mauris mi metus, fermentum at mollis id, iaculis laoreet magna. Nam non dapibus justo, varius tristique diam. Morbi a elementum diam, quis scelerisque orci. Mauris non scelerisque ex. Nulla dapibus, sapien nec semper porttitor, elit arcu congue tellus, eu aliquet eros metus maximus enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin feugiat est eget ligula sollicitudin efficitur. Proin fermentum in lacus auctor tincidunt.
+
+Cras sem sem, lacinia a justo sed, imperdiet sollicitudin orci. Fusce gravida sapien eu vestibulum commodo. Vestibulum ante nunc, ornare vitae tempus eget, vehicula eu diam. Nam vitae eros sed ante dapibus fermentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras eleifend ut ligula ac sagittis. Suspendisse sagittis tellus odio, id tincidunt nisi porta ut. Phasellus eu viverra erat, mattis placerat nisl. Nam at aliquam turpis, at suscipit lacus. Nulla in ligula sed nisi consectetur vulputate. Morbi imperdiet, augue eget pretium aliquet, dui est ornare mauris, et lobortis risus enim vitae arcu. Sed est nulla, tempor ut felis ut, mattis pulvinar diam. Etiam venenatis, magna vitae aliquet bibendum, purus lacus mattis erat, vitae lobortis velit purus a velit. Maecenas nulla mi, venenatis ut elit quis, tincidunt viverra ipsum.
+
+Ut mauris risus, convallis at semper eget, malesuada nec felis. Aenean consequat felis id mauris vulputate rhoncus. Sed luctus scelerisque leo, a bibendum libero efficitur sit amet. Pellentesque odio velit, posuere in dapibus ut, faucibus in leo. Etiam libero velit, ultricies vel augue a, malesuada dictum ante. Mauris dictum lacus sed tellus tristique vehicula. Aliquam et cursus arcu. Maecenas id felis at diam facilisis accumsan. Nam finibus, sem quis rutrum scelerisque, velit lectus sagittis nibh, at tincidunt diam lacus at purus. Sed orci felis, imperdiet semper orci tincidunt, eleifend tristique est. Donec vehicula metus eu erat placerat vehicula. Phasellus placerat mattis quam, ut hendrerit ipsum lobortis non. Donec et magna erat. Sed eu sem id odio tincidunt accumsan. Aenean non pulvinar mauris. Duis quis consectetur tortor.
+
+Ut et eleifend erat, vitae pulvinar neque. Morbi tincidunt, dui sit amet faucibus condimentum, leo ex pulvinar dui, at hendrerit mi risus in lectus. Cras sit amet dui semper, vestibulum quam dapibus, hendrerit enim. Suspendisse placerat et eros sed tempus. Sed venenatis augue nibh, at aliquet lectus ornare eu. Vestibulum eu efficitur ligula, eu fringilla nibh. Mauris quam nulla, ultricies a ultrices sit amet, vulputate at odio. Suspendisse porta justo libero, eu rhoncus est maximus non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque lacus sapien, lacinia auctor quam sit amet, elementum egestas diam. Nunc sagittis magna nec justo sagittis, eget fermentum eros convallis. Phasellus molestie sodales metus at sollicitudin. Sed eleifend quam vel velit vulputate elementum. Aliquam laoreet lacus odio, scelerisque viverra quam blandit eget. Nam eu lorem condimentum, pellentesque arcu a, tincidunt nibh. Sed egestas lorem est, eu pretium turpis venenatis quis.
+
+Nunc ultricies suscipit molestie. Proin quis nulla semper massa varius sodales. Aliquam non arcu id nisl mollis sagittis. Nullam in luctus risus, sed convallis urna. Suspendisse id fringilla nisi. Ut a nisl et metus dapibus porta. Aliquam id suscipit lacus, egestas aliquet eros. Etiam imperdiet nulla ut sem mattis dapibus. Sed quis arcu tempus, tempor velit vitae, iaculis sem. Nulla nec commodo orci.
+
+Praesent id interdum lacus. Praesent at convallis erat, eu facilisis enim. Donec quis nisi eget lacus viverra sodales. Vivamus nisi nulla, venenatis auctor bibendum vel, pharetra vitae dolor. Morbi nulla tortor, interdum eget iaculis eget, convallis vitae nibh. Nunc vulputate sed nisi et tempus. Suspendisse a urna vel tellus convallis porttitor. Nam pretium pulvinar leo vitae feugiat. Proin quis metus eget turpis porta dapibus eu vitae turpis. Praesent mattis finibus rhoncus. In hac habitasse platea dictumst. Phasellus vitae quam eu massa elementum viverra. Duis sit amet ultricies turpis. Ut non feugiat dolor, id pulvinar neque. Proin vulputate eget ipsum a malesuada. Integer in ex ac turpis semper tempor a quis sapien.</br></br>
+                   
+            
+        </div>
+        
+        
+        <div class="tab">
+            <h1 id="education">Wykształcenie</h1>
+            Ukończyłem:</br>
+            Gimnazjum w Zespole Szkół im. Jana Pawła II w Krasnopolu.</br>
+            III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Alfreda Lityńskiego o profilu matematyczno-fizycznym.</br>
+            Aktualnie studiuję:</br>
+            Politechnika Krakowska im. Tadeusza Kościuszki o kierunku Fizyki Technicznej na wydziale Inżynierii Materiałowej i Fizyki.</br></br>
+        </div>
+        <div class="tab">
+            <h1 id="experience">Doświadczenie</h1>
+            Tymczasowo żadne (｡☉౪ ⊙｡)</br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at vehicula velit, vel dictum nisl. Suspendisse potenti. Maecenas at tempor lectus. Nam efficitur feugiat libero, at consequat purus elementum nec. Nullam blandit lorem et velit luctus mattis. Pellentesque vestibulum nunc non justo lacinia, sed imperdiet dui aliquet. Morbi vitae nulla libero. In rhoncus, mauris a molestie auctor, ex velit placerat massa, sed vehicula nulla mi ac nibh. Sed bibendum tortor nunc, non scelerisque nulla pharetra porttitor. Morbi ac est hendrerit lacus pharetra ultricies. Sed et faucibus justo. Fusce in laoreet diam, sed aliquam enim. Pellentesque vitae mattis est, eget aliquam urna. Etiam varius neque ac libero convallis, et tincidunt metus semper. In pellentesque nunc lacus, et malesuada tellus consequat eu. Sed eget nunc vel leo tincidunt blandit.
+
+Vivamus eu arcu eu quam iaculis blandit eu in tortor. Quisque in porta libero. Vestibulum vel iaculis nunc. Aenean sit amet erat faucibus, blandit eros eget, vulputate purus. Duis et nunc a est faucibus tincidunt. Ut commodo ante turpis, nec pretium justo vestibulum id. Suspendisse venenatis porttitor ante, ac tincidunt mi pulvinar non. Nullam ultrices malesuada tellus finibus lobortis. Nulla facilisi.
+
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce tempor lorem vitae magna luctus tristique. Duis faucibus, eros ut blandit tristique, ipsum urna tempus urna, ut commodo nisi felis pretium ipsum. Donec iaculis mattis lorem, eget tempus lectus facilisis sit amet. Nunc congue faucibus aliquet. Ut efficitur a massa eget gravida. Maecenas vitae tincidunt metus. Etiam ut tempus nibh, non cursus libero. Cras ut condimentum sem. Integer vitae ornare nibh.
+
+Nullam et erat orci. Maecenas sit amet porttitor ante. Nam vitae nulla at erat condimentum mattis nec eget felis. In malesuada lectus ut semper elementum. Nunc in cursus tellus. Integer consectetur justo orci, at tempor nunc interdum ac. Aenean finibus rutrum efficitur. Vestibulum mattis ligula tellus, vel laoreet leo cursus at. Etiam nisl libero, interdum a faucibus eu, vehicula quis sem. Vivamus neque ligula, egestas sed erat nec, consectetur ultrices lorem. Vivamus finibus vitae nulla at rutrum. Suspendisse vitae nunc pulvinar, posuere ex nec, convallis sem. Sed sagittis pellentesque neque quis dignissim. Nunc sed ultrices sapien. Praesent rutrum, felis ac facilisis aliquam, nisi mi facilisis elit, vitae venenatis erat ex rutrum nisi.
+
+Integer aliquet neque nisl, eu rhoncus arcu gravida a. Aliquam eget nisi egestas, tempus lectus nec, semper felis. Integer egestas bibendum est sed eleifend. Suspendisse sit amet finibus nisl, nec tincidunt purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean arcu nulla, posuere et nisl in, semper auctor urna. Vivamus sed mi metus. Donec non mauris convallis, consequat est vitae, efficitur magna. Ut sollicitudin sed est id laoreet. Fusce dictum et nunc id dictum.</br></br>
+        </div>
+        <div class="tab">
+            <h1 id="Aboutme">O mnie</h1>
+            Witam Cię serdecznie na mojej stronie, mam na imię Maciej. Aktualnie jestem studentem 2 roku na Politechnice Krakowskiej na kierunku Fiyzki Technicznej.
+            Bardzo dużą częścią moich przedmiotów oraz mojego życia jest programowanie, szczególnie frontend(｡◕‿◕｡). Poza uczelnią oraz programowaniem jestem bardzo spokojną i zdyscyplinowaną osobą.
+            Mam wiele hobby, które uwielbiam i bezprzerwy rozwijam. Między innymi informatyka, Airsoft, motoryzacja. </br></br>
+        </div>
+        <div class="tab">
+            <h1 id="contact">Kontakt</h1>
+            Można się ze mną skontaktować poprzez:</br>
+            E-mail: Maciek.korsakowski@gmail.com</br>
+            Facebook: Maciek Korsakowski</br>
+            Instagram: MKorsakowsky</br>
+        </div>
+    
+    </div>
+</body>
+</html>
